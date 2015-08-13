@@ -19,12 +19,12 @@ Representation of Json values :
  JSon value in haskell
 =======================================
 
-(JObject [ ("firstname" , JString "Pradeep"), 
-           ("lastname", JString "Muralidharan"), 
+(JObject [ ("firstname" , JString "praran"), 
+           ("lastname", JString "lastname"), 
 		   ("phone", JArray [JString "073131313131", JString "0201231231231231"]) ,
 		   ("address",(JObject [ 
-            		   ("town", JString "hounslow") , 
-					   ("postcode", JString "TW3")]))] )
+            		   ("town", JString "london") , 
+					   ("postcode", JString "WC1")]))] )
 
 
  Function which converts JValue to String representation
